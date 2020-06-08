@@ -1,5 +1,7 @@
 ## Welcome to GitHub Pages
 
+Quick link to My_Portfolio_Site: https://midcenturydude7.github.io/My_Portfolio_Site/
+
 You can use the [editor on GitHub](https://github.com/midCenturyDude7/My_Portfolio_Site/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
