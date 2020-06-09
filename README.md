@@ -31,11 +31,11 @@ init_notebook_mode(connected=True)
 ```
 
 
-![Image 1](../images/choropleth_plot.png "Image 1")
+![Image 1](project_files/images/choropleth_plot.png "Image 1")
 
-![Image 2](../images/choropleth_anime.png "Image 2")
+![Image 2](project_files/images/choropleth_anime.png "Image 2")
 
-![Image_3](../images/choropleth_anime_2.png "Image 3")
+![Image_3](project_files/images/choropleth_anime_2.png "Image 3")
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
