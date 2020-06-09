@@ -30,12 +30,18 @@ init_notebook_mode(connected=True)
 
 ```
 
+#### Visualization
 
-![Image 1](project_files/images/choropleth_plot.png "Image 1")
+##### Plot 1 - Static
+![](project_files/images/choropleth_plot.png "Image 1")
 
-![Image 2](project_files/images/choropleth_anime.png "Image 2")
 
-![Image_3](project_files/images/choropleth_anime_2.png "Image 3")
+##### Plot 2(a) - Time Sequence Animation: February 2020
+![](project_files/images/choropleth_anime.png "Image 2")
+
+
+##### Plot 2(b) - Time Sequence Animation: June 2020
+![](project_files/images/choropleth_anime_2.png "Image 3")
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
