@@ -1,39 +1,43 @@
-## Welcome to GitHub Pages
+## Welcome to Matt's Data Science Portfolio Site
 
-Quick link to My_Portfolio_Site: https://midcenturydude7.github.io/My_Portfolio_Site/
+URL: [My_Portfolio_Site](https://midcenturydude7.github.io/My_Portfolio_Site/)
 
-You can use the [editor on GitHub](https://github.com/midCenturyDude7/My_Portfolio_Site/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### [Project One: COVID-19 Data Visualization with Choropleth](https://github.com/midCenturyDude7/My_Portfolio_Site/tree/master/project_files)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#### Overview
 
-### Markdown
+- Simple data visualization pulling COVID-19 date from Kaggle
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Utilized the Choropleth library to create real-time visualizations of
+COVID-19 data globally
+
+- Developed both a graphical plot and frame-by-frame animation that utilizes a time sequence to show how the virus spread globally from the beginning of 2020 to the current date
+
+#### Code
+
+In addition to Choropleth library, utilized Python as the baseline programming language and baked in Numpy, Pandas and Plotly to manipulate and plot the data.
 
 ```markdown
-Syntax highlighted code block
+# Import libraries
+import numpy as np 
+import pandas as pd 
+import plotly as py
+import plotly.express as px
+import plotly.graph_objs as go
+from plotly.subplots import make_subplots
+from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
+init_notebook_mode(connected=True)
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
+
+
+![Image 1](../images/choropleth_plot.png "Image 1")
+
+![Image 2](../images/choropleth_anime.png "Image 2")
+
+![Image_3](../images/choropleth_anime_2.png "Image 3")
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/midCenturyDude7/My_Portfolio_Site/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
